@@ -14,15 +14,31 @@ html {
 }
 
 #header {
-    width: 100%;
     height: 46px;
     background-color: #000;
     position: fixed;
     top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#header .search-btn {
+    float: right;
+    padding: 0 24px;
+}
+
+#header .search-btn:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #fff;
+    line-height: 46px;
 }
 
 #nav{
-    
+    display: inline-block;
 }
 
 #nav , .subnav {
@@ -72,12 +88,14 @@ html {
 
 
 #slider {
+    margin-top: 46px;
     min-height: 500px;
     background-color: #333;
 }
 
 #content {
-    
+    height: 1000px;
+    background-color: #ccc;
 }
 
 #footer {
