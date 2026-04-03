@@ -88,10 +88,30 @@ html {
 
 
 #slider {
+    position: relative;
     margin-top: 46px;
-    min-height: 500px;
-    background-color: #333;
+    padding-top: 50%;
+    background: url('/assets/imgs/slider/chicago.jpg') no-repeat top center / cover;
 }
+
+#slider .text-content {
+    position: absolute;
+    bottom: 48px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;    
+}
+
+#slider .text-dsc {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
 
 #content {
     height: 1000px;
